@@ -60,4 +60,9 @@ This mini project was developed as part of personal learning to build skills in 
 Android Developer | B.Tech Student | Aspiring to create impactful apps
 
 ---
+## How to Run the App
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/sravaniXplore05/tasks.git
 
