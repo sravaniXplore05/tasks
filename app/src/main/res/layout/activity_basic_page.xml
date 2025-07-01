@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0F7FA"
+
+    tools:context=".BasicPage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:padding="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Drinking Water -->
+            <EditText
+                android:id="@+id/et_drinking"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Number of 1L bottles drank"
+                android:textColor="#000000"
+                android:textColorHint="#555555"
+                android:backgroundTint="#000000"
+                android:inputType="number" />
+
+            <!-- Bathing -->
+            <EditText
+                android:id="@+id/et_bathing"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textColor="#000000"
+                android:textColorHint="#555555"
+                android:backgroundTint="#000000"
+                android:hint="Number of showers"
+                android:inputType="number" />
+
+            <!-- Washing -->
+            <EditText
+                android:id="@+id/et_washing"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textColor="#000000"
+                android:textColorHint="#555555"
+                android:backgroundTint="#000000"
+                android:hint="Washing machine loads"
+                android:inputType="number" />
+
+            <!-- Cleaning -->
+            <EditText
+                android:id="@+id/et_cleaning"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Buckets used for cleaning"
+                android:textColor="#000000"
+                android:textColorHint="#555555"
+                android:backgroundTint="#000000"
+                android:inputType="number" />
+
+            <!-- Submit Button -->
+            <Button
+                android:id="@+id/btn_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#00BFFF"
+
+                android:text="Submit Usage" />
+            <Button
+                android:id="@+id/btnViewHistory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00BFFF"
+
+                android:layout_marginTop="10dp"
+                android:text="View History" />
+
+
+            <!-- Logout Button -->
+            <Button
+                android:id="@+id/logout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#00BFFF"
+                android:text="Logout" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
